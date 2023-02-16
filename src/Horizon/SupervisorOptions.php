@@ -1,6 +1,6 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon;
+namespace Lisandrop05\Multidomain\Horizon;
 
 use Laravel\Horizon\SupervisorOptions as BaseSupervisorOptions;
 
@@ -9,7 +9,7 @@ use Laravel\Horizon\SupervisorOptions as BaseSupervisorOptions;
  *
  * @property string $domain
  *
- * @package Gecche\Multidomain\Horizon
+ * @package Lisandrop05\Multidomain\Horizon
  */
 class SupervisorOptions extends BaseSupervisorOptions
 {

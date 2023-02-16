@@ -3,6 +3,7 @@
 [![Laravel](https://img.shields.io/badge/Laravel-7.x-orange.svg?style=flat-square)](http://laravel.com)
 [![Laravel](https://img.shields.io/badge/Laravel-8.x-orange.svg?style=flat-square)](http://laravel.com)
 [![Laravel](https://img.shields.io/badge/Laravel-9.x-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-10.x-orange.svg?style=flat-square)](http://laravel.com)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 # Laravel Multi Domain
@@ -33,6 +34,7 @@ for each such customer.
  7.x      | 3.x
  8.x      | 4.x
  9.x      | 5.x
+10.x      | 6.x
 
 #### Further notes on Compatibility
 
@@ -80,7 +82,7 @@ at the very top of the `bootstrap/app.php` file.
 
 ```php
 //$app = new Illuminate\Foundation\Application(
-$app = new Gecche\Multidomain\Foundation\Application(
+$app = new Lisandrop05\Multidomain\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
 ```
@@ -91,14 +93,14 @@ At the very top of the `app/Http/Kernel.php` file , do the following change:
 
 ```php
 //use Illuminate\Foundation\Http\Kernel as HttpKernel;
-use Gecche\Multidomain\Foundation\Http\Kernel as HttpKernel;
+use Lisandrop05\Multidomain\Foundation\Http\Kernel as HttpKernel;
 ```
 
 Similarly in the `app/Console/Kernel.php` file:
 
 ```php
 //use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use Gecche\Multidomain\Foundation\Console\Kernel as ConsoleKernel;
+use Lisandrop05\Multidomain\Foundation\Console\Kernel as ConsoleKernel;
 ```
 
 3. Override the `QueueServiceProvider` with the extended 
@@ -106,7 +108,7 @@ one in the `$providers` array in the `config/app.php` file:
 
 ```php
         //Illuminate\Queue\QueueServiceProvider::class,
-        Gecche\Multidomain\Queue\QueueServiceProvider::class,
+        Lisandrop05\Multidomain\Queue\QueueServiceProvider::class,
 ```
         
 4. publish the config file.
@@ -246,7 +248,7 @@ $domainParams = [
 ];
 
 //$app = new Illuminate\Foundation\Application(
-$app = new Gecche\Multidomain\Foundation\Application(
+$app = new Lisandrop05\Multidomain\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__), null, $domainParams
 );
 ```
@@ -348,7 +350,7 @@ if you want to add environment files to the `envs` subfolder, simply do:
 
 ```php
 //$app = new Illuminate\Foundation\Application(
-$app = new Gecche\Multidomain\Foundation\Application(
+$app = new Lisandrop05\Multidomain\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__),
     dirname(__DIR__) . DIRECTORY_SEPARATOR . 'envs'
 );

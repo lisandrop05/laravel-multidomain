@@ -1,13 +1,13 @@
 <?php
-namespace Gecche\Multidomain\Queue;
+namespace Lisandrop05\Multidomain\Queue;
 
-use Gecche\Multidomain\Queue\Console\ListenCommand as QueueListenCommand;
+use Lisandrop05\Multidomain\Queue\Console\ListenCommand as QueueListenCommand;
 use Illuminate\Queue\QueueServiceProvider as BaseQueueServiceProvider;
 
 /**
  * Class QueueServiceProvider
  *
- * @package Gecche\Multidomain\Queue
+ * @package Lisandrop05\Multidomain\Queue
  */
 class QueueServiceProvider extends BaseQueueServiceProvider
 {

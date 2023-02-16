@@ -1,12 +1,12 @@
-<?php namespace Gecche\Multidomain\Foundation\Providers;
+<?php namespace Lisandrop05\Multidomain\Foundation\Providers;
 
 use App;
-use Gecche\Multidomain\Foundation\Console\ListDomainCommand;
-use Gecche\Multidomain\Foundation\Console\RemoveDomainCommand;
+use Lisandrop05\Multidomain\Foundation\Console\ListDomainCommand;
+use Lisandrop05\Multidomain\Foundation\Console\RemoveDomainCommand;
 use Illuminate\Support\ServiceProvider;
-use Gecche\Multidomain\Foundation\Console\DomainCommand;
-use Gecche\Multidomain\Foundation\Console\AddDomainCommand;
-use Gecche\Multidomain\Foundation\Console\UpdateEnvDomainCommand;
+use Lisandrop05\Multidomain\Foundation\Console\DomainCommand;
+use Lisandrop05\Multidomain\Foundation\Console\AddDomainCommand;
+use Lisandrop05\Multidomain\Foundation\Console\UpdateEnvDomainCommand;
 
 class DomainConsoleServiceProvider extends ServiceProvider {
 
@@ -34,7 +34,7 @@ class DomainConsoleServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app->alias('artisan',\Gecche\Multidomain\Console\Application::class);
+        $this->app->alias('artisan',\Lisandrop05\Multidomain\Console\Application::class);
 
 
         foreach ($this->commands as $command)

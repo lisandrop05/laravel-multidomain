@@ -1,16 +1,16 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon\MasterSupervisorCommands;
+namespace Lisandrop05\Multidomain\Horizon\MasterSupervisorCommands;
 
 use Laravel\Horizon\MasterSupervisor;
-use Gecche\Multidomain\Horizon\SupervisorOptions;
-use Gecche\Multidomain\Horizon\SupervisorProcess;
+use Lisandrop05\Multidomain\Horizon\SupervisorOptions;
+use Lisandrop05\Multidomain\Horizon\SupervisorProcess;
 use Laravel\Horizon\MasterSupervisorCommands\AddSupervisor as BaseAddSupervisor;
 
 /**
  * Class AddSupervisor
  *
- * @package Gecche\Multidomain\Horizon\MasterSupervisorCommands
+ * @package Lisandrop05\Multidomain\Horizon\MasterSupervisorCommands
  */
 class AddSupervisor extends BaseAddSupervisor
 {

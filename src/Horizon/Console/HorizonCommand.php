@@ -1,16 +1,16 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon\Console;
+namespace Lisandrop05\Multidomain\Horizon\Console;
 
 use Laravel\Horizon\Contracts\MasterSupervisorRepository;
 use Laravel\Horizon\MasterSupervisor;
-use Gecche\Multidomain\Horizon\ProvisioningPlan;
+use Lisandrop05\Multidomain\Horizon\ProvisioningPlan;
 use Laravel\Horizon\Console\HorizonCommand as BaseHorizonCommand;
 
 /**
  * Class HorizonCommand
  *
- * @package Gecche\Multidomain\Horizon\Console
+ * @package Lisandrop05\Multidomain\Horizon\Console
  */
 class HorizonCommand extends BaseHorizonCommand
 {

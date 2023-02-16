@@ -1,6 +1,6 @@
 {
-    "name": "gecche/laravel-multidomain",
-    "description": "Laravel App on a subdomains, multi-tenancy setting",
+    "name": "lisandrop05/laravel-multidomain",
+    "description": "Laravel App on a subdomains, multi-tenancy setting(this is a fork of 'gecche/laravel-multidomain' qith support for laravel10)",
     "keywords": ["laravel", "subdomains", "multitenancy", "multi-tenants", "multidomain"],
     "license": "MIT",
     "authors": [
@@ -10,21 +10,21 @@
         }
     ],
     "require": {
-        "laravel/framework": "^9.0"
+        "laravel/framework": "^10.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.4",
         "phpunit/phpunit": "^9.5.8",
         "limedeck/phpunit-detailed-printer": "^6.0",
-        "orchestra/testbench": "7.x-dev",
-        "orchestra/testbench-browser-kit": "^7.0"
+        "orchestra/testbench": "8.x-dev",
+        "orchestra/testbench-browser-kit": "^8.0"
     },
     "autoload": {
         "classmap": [
 
         ],
         "psr-4": {
-            "Gecche\\Multidomain\\": "src/"
+            "Lisandrop05\\Multidomain\\": "src/"
         },
         "files": [
             "src/Foundation/helpers.php"
@@ -32,7 +32,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Gecche\\Multidomain\\Tests\\": "tests/src"
+            "Lisandrop05\\Multidomain\\Tests\\": "tests/src"
         }
     },
     "scripts": {
@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gecche\\Multidomain\\Foundation\\Providers\\DomainConsoleServiceProvider"
+                "Lisandrop05\\Multidomain\\Foundation\\Providers\\DomainConsoleServiceProvider"
             ]
         }
     },

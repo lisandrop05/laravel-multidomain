@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Foundation\Bootstrap;
+<?php namespace Lisandrop05\Multidomain\Foundation\Bootstrap;
 
 use Illuminate\Contracts\Foundation\Application;
 

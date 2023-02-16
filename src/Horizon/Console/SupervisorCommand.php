@@ -1,14 +1,14 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon\Console;
+namespace Lisandrop05\Multidomain\Horizon\Console;
 
-use Gecche\Multidomain\Horizon\SupervisorOptions;
+use Lisandrop05\Multidomain\Horizon\SupervisorOptions;
 use Laravel\Horizon\Console\SupervisorCommand as BaseSupervisorCommand;
 
 /**
  * Class SupervisorCommand
  *
- * @package Gecche\Multidomain\Horizon\Console
+ * @package Lisandrop05\Multidomain\Horizon\Console
  */
 class SupervisorCommand extends BaseSupervisorCommand
 {

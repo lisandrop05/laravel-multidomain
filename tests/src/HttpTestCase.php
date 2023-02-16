@@ -6,14 +6,14 @@
  * Time: 11:15
  */
 
-namespace Gecche\Multidomain\Tests;
+namespace Lisandrop05\Multidomain\Tests;
 
-use Gecche\Multidomain\Foundation\Application;
-use Gecche\Multidomain\Foundation\Providers\DomainConsoleServiceProvider;
-use Gecche\Multidomain\Tests\Http\Kernel as HttpKernel;
+use Lisandrop05\Multidomain\Foundation\Application;
+use Lisandrop05\Multidomain\Foundation\Providers\DomainConsoleServiceProvider;
+use Lisandrop05\Multidomain\Tests\Http\Kernel as HttpKernel;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
-use Gecche\Multidomain\Tests\Console\Kernel as ConsoleKernel;
+use Lisandrop05\Multidomain\Tests\Console\Kernel as ConsoleKernel;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Symfony\Component\Process\Process;
@@ -83,7 +83,7 @@ class HttpTestCase extends \Orchestra\Testbench\BrowserKit\TestCase
         copy(__DIR__ . '/../config/app.php',$this->laravelAppPath.'/config/app.php');
         copy(__DIR__ . '/../.env.example', $this->laravelAppPath.'/.env');
 
-        $process = new Process(['php', $this->laravelAppPath.'/artisan', 'vendor:publish', '--provider="Gecche\Multidomain\Foundation\Providers\DomainConsoleServiceProvider"']);
+        $process = new Process(['php', $this->laravelAppPath.'/artisan', 'vendor:publish', '--provider="Lisandrop05\Multidomain\Foundation\Providers\DomainConsoleServiceProvider"']);
         $process->run();
 
         $process = new Process(['php', $this->laravelAppPath.'/artisan', 'domain:remove', $this->site1, '--force']);

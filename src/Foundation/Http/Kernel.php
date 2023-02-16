@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Foundation\Http;
+<?php namespace Lisandrop05\Multidomain\Foundation\Http;
 
 use Exception;
 use Illuminate\Routing\Router;
@@ -15,7 +15,7 @@ class Kernel extends \Illuminate\Foundation\Http\Kernel {
 	 * @var array
 	 */
     protected $bootstrappers = [
-        \Gecche\Multidomain\Foundation\Bootstrap\DetectDomain::class,
+        \Lisandrop05\Multidomain\Foundation\Bootstrap\DetectDomain::class,
         \Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
         \Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
         \Illuminate\Foundation\Bootstrap\HandleExceptions::class,

@@ -1,8 +1,8 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon;
+namespace Lisandrop05\Multidomain\Horizon;
 
-use Gecche\Multidomain\Horizon\MasterSupervisorCommands\AddSupervisor;
+use Lisandrop05\Multidomain\Horizon\MasterSupervisorCommands\AddSupervisor;
 use Laravel\Horizon\Contracts\HorizonCommandQueue;
 use Laravel\Horizon\MasterSupervisor;
 use Laravel\Horizon\ProvisioningPlan as BaseProvisioningPlan;
@@ -11,7 +11,7 @@ use Laravel\Horizon\SupervisorOptions as BaseSupervisorOptions;
 /**
  * Class ProvisioningPlan
  *
- * @package Gecche\Multidomain\Horizon
+ * @package Lisandrop05\Multidomain\Horizon
  */
 class ProvisioningPlan extends BaseProvisioningPlan
 {

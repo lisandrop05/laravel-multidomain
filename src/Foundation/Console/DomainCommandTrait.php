@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Foundation\Console;
+<?php namespace Lisandrop05\Multidomain\Foundation\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;

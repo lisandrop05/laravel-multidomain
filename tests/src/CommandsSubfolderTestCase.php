@@ -6,9 +6,9 @@
  * Time: 11:15
  */
 
-namespace Gecche\Multidomain\Tests;
+namespace Lisandrop05\Multidomain\Tests;
 
-use Gecche\Multidomain\Foundation\Application;
+use Lisandrop05\Multidomain\Foundation\Application;
 
 class CommandsSubfolderTestCase extends CommandsTestCase
 {

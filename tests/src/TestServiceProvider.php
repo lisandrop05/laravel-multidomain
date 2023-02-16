@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Tests;
+<?php namespace Lisandrop05\Multidomain\Tests;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

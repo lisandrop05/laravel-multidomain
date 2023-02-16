@@ -1,6 +1,6 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon;
+namespace Lisandrop05\Multidomain\Horizon;
 
 use Laravel\Horizon\SupervisorCommandString as BaseSupervisorCommandString;
 use Laravel\Horizon\SupervisorOptions;
@@ -8,7 +8,7 @@ use Laravel\Horizon\SupervisorOptions;
 /**
  * Class SupervisorCommandString
  *
- * @package Gecche\Multidomain\Horizon
+ * @package Lisandrop05\Multidomain\Horizon
  */
 class SupervisorCommandString extends BaseSupervisorCommandString
 {

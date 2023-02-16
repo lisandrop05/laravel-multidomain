@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Tests\Jobs;
+<?php namespace Lisandrop05\Multidomain\Tests\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Filesystem\Filesystem;

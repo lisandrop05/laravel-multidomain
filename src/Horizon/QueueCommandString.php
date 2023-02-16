@@ -1,6 +1,6 @@
 <?php
 
-namespace Gecche\Multidomain\Horizon;
+namespace Lisandrop05\Multidomain\Horizon;
 
 use Laravel\Horizon\QueueCommandString as BaseQueueCommandString;
 use Laravel\Horizon\SupervisorOptions as BaseSupervisorOptions;
@@ -8,7 +8,7 @@ use Laravel\Horizon\SupervisorOptions as BaseSupervisorOptions;
 /**
  * Class QueueCommandString
  *
- * @package Gecche\Multidomain\Horizon
+ * @package Lisandrop05\Multidomain\Horizon
  */
 class QueueCommandString extends BaseQueueCommandString
 {

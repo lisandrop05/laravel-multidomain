@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Foundation;
+<?php namespace Lisandrop05\Multidomain\Foundation;
 
 use Closure;
 use Illuminate\Support\Arr;

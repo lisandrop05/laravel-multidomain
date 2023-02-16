@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Console;
+<?php namespace Lisandrop05\Multidomain\Console;
 
 use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputOption;

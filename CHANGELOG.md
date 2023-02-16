@@ -108,12 +108,12 @@ than the root Laravel's app folder. With new tests.
  
 ## 2.2 - 2019-11-15
 ### Changed
-- Changed `Gecche\Multidomain\Foundation\Application` for handling separated cache files for each 
+- Changed `Lisandrop05\Multidomain\Foundation\Application` for handling separated cache files for each 
 domain when using the `route:cache` or `event:cache` Laravel commands 
 
 ## 2.1 - 2019-11-12
 ### Changed
-- Bugfix in `Gecche\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
+- Bugfix in `Lisandrop05\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
 `domain:add` command, sometimes some lines in the stub .env file were 
 skipped and not replicated in the new .env.<domain> file
  
@@ -162,12 +162,12 @@ than the root Laravel's app folder. With new tests.
  
 ## 1.4.2 - 2019-11-15
 ### Changed
-- Changed `Gecche\Multidomain\Foundation\Application` for handling separated cache files for each 
+- Changed `Lisandrop05\Multidomain\Foundation\Application` for handling separated cache files for each 
 domain when using the `route:cache` or `event:cache` Laravel commands 
 
 ## 1.4.1 - 2019-11-12
 ### Changed
-- Bugfix in `Gecche\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
+- Bugfix in `Lisandrop05\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
 `domain:add` command, sometimes some lines in the stub .env file were 
 skipped and not replicated in the new .env.<domain> file
  
@@ -216,19 +216,19 @@ than the root Laravel's app folder. With new tests.
  
 ## 1.3.2 - 2019-11-15
 ### Changed
-- Changed `Gecche\Multidomain\Foundation\Application` for handling separated cache files for each 
+- Changed `Lisandrop05\Multidomain\Foundation\Application` for handling separated cache files for each 
 domain when using the `route:cache` Laravel command 
 
 ## 1.3.1 - 2019-11-12
 ### Changed
-- Bugfix in `Gecche\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
+- Bugfix in `Lisandrop05\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
 `domain:add` command, sometimes some lines in the stub .env file were 
 skipped and not replicated in the new .env.<domain> file
  
 ## 1.3.0 - 2019-10-29
 ### Changed
 - `composer.json` updated for Laravel 5.7  
-- Bugfix in `Gecche\Multidomain\Queue\Listener` due to changes in handling 
+- Bugfix in `Lisandrop05\Multidomain\Queue\Listener` due to changes in handling 
 worker commands in the parent class.
 
 ## 1.2.9 - 2021-02-13
@@ -272,12 +272,12 @@ than the root Laravel's app folder. With new tests.
  
 ## 1.2.2 - 2019-11-15
 ### Changed
-- Changed `Gecche\Multidomain\Foundation\Application` for handling separated cache files for each 
+- Changed `Lisandrop05\Multidomain\Foundation\Application` for handling separated cache files for each 
 domain when using the `route:cache` Laravel command 
 
 ## 1.2.1 - 2019-11-12
 ### Changed
-- Bugfix in `Gecche\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
+- Bugfix in `Lisandrop05\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
 `domain:add` command, sometimes some lines in the stub .env file were 
 skipped and not replicated in the new .env.<domain> file
  
@@ -326,12 +326,12 @@ than the root Laravel's app folder. With new tests.
  
 ## 1.1.8 - 2019-11-15
 ### Changed
-- Changed `Gecche\Multidomain\Foundation\Application` for handling separated cache files for each 
+- Changed `Lisandrop05\Multidomain\Foundation\Application` for handling separated cache files for each 
 domain when using the `route:cache` Laravel command
  
 ## 1.1.7 - 2019-11-12
 ### Changed
-- Bugfix in `Gecche\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
+- Bugfix in `Lisandrop05\Multidomain\Foundation\Console\DomainCommandTrait`: running the 
 `domain:add` command, sometimes some lines in the stub .env file were 
 skipped and not replicated in the new .env.<domain> file
  
@@ -340,7 +340,7 @@ skipped and not replicated in the new .env.<domain> file
 - Test suites
 ### Changed
 - Namespace of `DomainConsoleServiceProvider` provider from 
-`Gecche\Multidomain\Foundation` to `Gecche\Multidomain\Foundation\Providers` 
+`Lisandrop05\Multidomain\Foundation` to `Lisandrop05\Multidomain\Foundation\Providers` 
     in order to respect folder struture.
 - `composer.json` file for testing purposes (from now Git branches are separated for each 
 Laravel release starting from 5.5 and as pointed out in the docs)  

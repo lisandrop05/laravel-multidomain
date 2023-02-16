@@ -1,13 +1,13 @@
 <?php
 
-namespace Gecche\Multidomain\Queue;
+namespace Lisandrop05\Multidomain\Queue;
 
 use Illuminate\Queue\ListenerOptions as BaseListenerOptions;
 
 /**
  * Class ListenerOptions
  *
- * @package Gecche\Multidomain\Queue
+ * @package Lisandrop05\Multidomain\Queue
  */
 class ListenerOptions extends BaseListenerOptions
 {

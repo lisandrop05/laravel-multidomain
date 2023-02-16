@@ -1,6 +1,6 @@
 <?php
 
-namespace Gecche\Multidomain\Foundation;
+namespace Lisandrop05\Multidomain\Foundation;
 
 use Illuminate\Support\Env;
 use Illuminate\Support\Arr;

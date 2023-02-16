@@ -1,6 +1,6 @@
 <?php
 
-namespace Gecche\Multidomain\Tests\Http\Middleware;
+namespace Lisandrop05\Multidomain\Tests\Http\Middleware;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 use Closure;

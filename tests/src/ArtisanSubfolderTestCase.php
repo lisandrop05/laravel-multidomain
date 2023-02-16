@@ -6,7 +6,7 @@
  * Time: 11:15
  */
 
-namespace Gecche\Multidomain\Tests;
+namespace Lisandrop05\Multidomain\Tests;
 
 class ArtisanSubfolderTestCase extends ArtisanTestCase
 {

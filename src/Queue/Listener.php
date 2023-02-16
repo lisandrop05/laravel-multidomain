@@ -1,5 +1,5 @@
 <?php
-namespace Gecche\Multidomain\Queue;
+namespace Lisandrop05\Multidomain\Queue;
 
 use Illuminate\Queue\ListenerOptions as BaseListenerOptions;
 use Illuminate\Queue\Listener as BaseListener;
@@ -9,7 +9,7 @@ use Symfony\Component\Process\Process;
 /**
  * Class Listener
  *
- * @package Gecche\Multidomain\Queue
+ * @package Lisandrop05\Multidomain\Queue
  */
 class Listener extends BaseListener
 {

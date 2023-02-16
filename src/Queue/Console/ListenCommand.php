@@ -1,14 +1,14 @@
 <?php
 
-namespace Gecche\Multidomain\Queue\Console;
+namespace Lisandrop05\Multidomain\Queue\Console;
 
-use Gecche\Multidomain\Queue\ListenerOptions;
+use Lisandrop05\Multidomain\Queue\ListenerOptions;
 use Illuminate\Queue\Console\ListenCommand as BaseListenCommand;
 
 /**
  * Class ListenCommand
  *
- * @package Gecche\Multidomain\Queue\Console
+ * @package Lisandrop05\Multidomain\Queue\Console
  */
 class ListenCommand extends BaseListenCommand
 {

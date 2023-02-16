@@ -1,4 +1,4 @@
-<?php namespace Gecche\Multidomain\Tests\Console\Commands;
+<?php namespace Lisandrop05\Multidomain\Tests\Console\Commands;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Console\Command;

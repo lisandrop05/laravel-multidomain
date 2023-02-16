@@ -1,6 +1,6 @@
-<?php namespace Gecche\Multidomain\Foundation\Console;
+<?php namespace Lisandrop05\Multidomain\Foundation\Console;
 
-use Gecche\Multidomain\Console\Application as Artisan;
+use Lisandrop05\Multidomain\Console\Application as Artisan;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 
@@ -13,7 +13,7 @@ class Kernel extends \Illuminate\Foundation\Console\Kernel {
 	 * @var array
 	 */
     protected $bootstrappers = [
-        \Gecche\Multidomain\Foundation\Bootstrap\DetectDomain::class,
+        \Lisandrop05\Multidomain\Foundation\Bootstrap\DetectDomain::class,
         \Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
         \Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
         \Illuminate\Foundation\Bootstrap\HandleExceptions::class,
